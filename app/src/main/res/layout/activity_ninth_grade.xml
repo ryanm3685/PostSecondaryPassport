@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="darrylsalive.postsecondarypassport.NinthGradeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Self Exploration"
+        android:id="@+id/selfExplorationText"
+        android:layout_marginTop="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SMART Goals"
+        android:id="@+id/smartGoalsText"
+        android:layout_alignTop="@+id/smartGoalsTrophy"
+        android:layout_alignLeft="@+id/selfExplorationText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="4-Year Planning"
+        android:id="@+id/fourYearText"
+        android:layout_alignTop="@+id/fourYearPlanningTrophy"
+        android:layout_alignLeft="@+id/selfExplorationText"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Volunteering/Service"
+        android:id="@+id/volunteeringText"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/selfExplorationText"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selfexplorTrophy"
+        android:src="@drawable/trophy75"
+        android:layout_alignTop="@+id/selfExplorationText"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smartGoalsTrophy"
+        android:src="@drawable/trophy75locked"
+        android:layout_below="@+id/selfexplorTrophy"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fourYearPlanningTrophy"
+        android:src="@drawable/trophy75locked"
+        android:layout_above="@+id/volunteeringText"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="49dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/volunteeringServiceTrophy"
+        android:src="@drawable/trophy75locked"
+        android:layout_alignTop="@+id/volunteeringText"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
