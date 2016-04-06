@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class NinthGradeActivity extends ActionBarActivity {
-    TextView smartGoals;
+    TextView smartGoals, selfExploration, fourYearPlanning, volunteeringService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,9 @@ public class NinthGradeActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         smartGoals = (TextView)findViewById(R.id.smartGoalsText);
+        selfExploration = (TextView)findViewById(R.id.selfExplorationText);
+        fourYearPlanning = (TextView)findViewById(R.id.fourYearText);
+        volunteeringService = (TextView)findViewById(R.id.volunteeringText);
 
         smartGoals.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,6 +28,32 @@ public class NinthGradeActivity extends ActionBarActivity {
                 startActivity(intent);
             }
         });
+
+        selfExploration.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), SelfExplorationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        fourYearPlanning.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), FourYearPlanningActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        volunteeringService.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), VolunteeringServiceActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 

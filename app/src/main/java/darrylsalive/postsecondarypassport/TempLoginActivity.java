@@ -7,6 +7,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.util.HashMap;
@@ -16,8 +17,8 @@ public class TempLoginActivity extends ActionBarActivity {
 
     Map<String, String> users = new HashMap<String,String>();
     EditText user, password;
-    Button loginButton;
-
+    //Button loginButton;
+    ImageButton loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +29,7 @@ public class TempLoginActivity extends ActionBarActivity {
         //users.put("Ryan", "password"); todo:  possibly add back in as "teacher" user
         user = (EditText)findViewById(R.id.usernameText);
         password = (EditText)findViewById(R.id.passwordText);
-        loginButton = (Button)findViewById(R.id.loginButton);
+        loginButton = (ImageButton)findViewById(R.id.signInButton);//(Button)findViewById(R.id.loginButton);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override

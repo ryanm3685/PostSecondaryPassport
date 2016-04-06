@@ -36,8 +36,8 @@ public class SMARTGoalsActivity extends ActionBarActivity {
         setContentView(R.layout.activity_smartgoals);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        subGoals.add("Get 90% or higher on math quiz");
-        subGoals.add("Receive assistance in derivatives by Ryan");
+        subGoals.add("Get 90% or higher on math quiz - completed 5/5/2017");
+        subGoals.add("Receive assistance in derivatives by Ryan - in progress");
 
         lv=(ListView) findViewById(R.id.smartGoalsListView);
         ArrayAdapter adapter = new ArrayAdapter(this,

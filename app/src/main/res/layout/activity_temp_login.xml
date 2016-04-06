@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradpic"
     tools:context="darrylsalive.postsecondarypassport.TempLoginActivity">
 
     <TextView
@@ -56,20 +57,19 @@
         android:layout_alignBottom="@+id/passwordText"
         android:layout_alignParentStart="true" />
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:id="@+id/loginButton"
-        android:layout_marginTop="88dp"
-        android:layout_below="@+id/textView2"
-        android:layout_toStartOf="@+id/passwordText" />
+        android:id="@+id/signInButton"
+        android:src="@drawable/purplebutton"
+        android:layout_alignEnd="@+id/titleTextView"
+        android:layout_below="@+id/textView2" />
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:id="@+id/registerButton"
-        android:layout_alignBottom="@+id/loginButton"
-        android:layout_alignParentEnd="true" />
+        android:id="@+id/createAccountButton"
+        android:src="@drawable/yellowbutton"
+        android:layout_below="@+id/signInButton"
+        android:layout_alignStart="@+id/signInButton" />
 </RelativeLayout>

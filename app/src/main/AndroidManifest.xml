@@ -49,6 +49,30 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="darrylsalive.postsecondarypassport.NinthGradeActivity" />
         </activity>
+        <activity
+            android:name=".SelfExplorationActivity"
+            android:label="@string/title_activity_self_exploration"
+            android:parentActivityName=".NinthGradeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrylsalive.postsecondarypassport.NinthGradeActivity" />
+        </activity>
+        <activity
+            android:name=".FourYearPlanningActivity"
+            android:label="@string/title_activity_four_year_planning"
+            android:parentActivityName=".NinthGradeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrylsalive.postsecondarypassport.NinthGradeActivity" />
+        </activity>
+        <activity
+            android:name=".VolunteeringServiceActivity"
+            android:label="@string/title_activity_volunteering_service"
+            android:parentActivityName=".NinthGradeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrylsalive.postsecondarypassport.NinthGradeActivity" />
+        </activity>
     </application>
 
 </manifest>

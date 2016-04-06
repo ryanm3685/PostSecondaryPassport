@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/nineView"
-        android:src="@drawable/nine150"
+        android:src="@drawable/grade_9_unlocked150"
         android:layout_marginTop="79dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tenView"
-        android:src="@drawable/ten150locked"
+        android:src="@drawable/grade_10_locked150"
         android:layout_alignTop="@+id/nineView"
         android:layout_alignParentEnd="true" />
 
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/elevenView"
-        android:src="@drawable/eleven150locked"
+        android:src="@drawable/grade_11_locked150"
         android:layout_below="@+id/nineView"
         android:layout_alignParentStart="true"
         android:layout_marginTop="43dp" />
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/twelveView"
-        android:src="@drawable/twelve150locked"
+        android:src="@drawable/grade_12_locked150"
         android:layout_alignTop="@+id/elevenView"
         android:layout_alignStart="@+id/tenView" />
 </RelativeLayout>
