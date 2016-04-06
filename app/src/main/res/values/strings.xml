@@ -16,4 +16,8 @@
     <string name="title_activity_temp_login">Sign In</string>
     <string name="title_activity_main_student">The Map</string>
     <string name="title_activity_ninth_grade">9th Grade</string>
+    <string name="title_activity_smartgoals">SMART Goals</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

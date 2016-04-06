@@ -41,6 +41,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="darrylsalive.postsecondarypassport.MainStudentActivity" />
         </activity>
+        <activity
+            android:name=".SMARTGoalsActivity"
+            android:label="@string/title_activity_smartgoals"
+            android:parentActivityName=".NinthGradeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrylsalive.postsecondarypassport.NinthGradeActivity" />
+        </activity>
     </application>
 
 </manifest>
